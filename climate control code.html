@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Climate Control Report – Lagos State University</title>
+  <meta name="description" content="Educational report on climate control, its application in Lagos society, and its benefits." />
+  <style>
+    :root{
+      --bg: #0b1020;
+      --fg: #eaf0ff;
+      --muted: #aab3c5;
+      --accent: #7dd3fc;
+      --accent-2:#22d3ee;
+      --card:#121934;
+      --ok:#4ade80;
+      --link:#93c5fd;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;scroll-behavior:smooth;background:radial-gradient(1200px 800px at 10% -10%, #1b2552, var(--bg));color:var(--fg);font:16px/1.6 system-ui, Segoe UI, Roboto, Arial}
+    a{color:var(--link)}
+    header{position:sticky;top:0;z-index:10;background:linear-gradient(180deg, rgba(11,16,32,.95), rgba(11,16,32,.75));backdrop-filter: blur(8px);border-bottom:1px solid #223;}
+    .wrap{max-width:1100px;margin:auto;padding:0 1rem}
+    nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0}
+    .brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--fg)}
+    .logo{width:36px;height:36px;border-radius:10px;background:conic-gradient(from 180deg at 50% 50%, var(--accent), var(--accent-2));display:grid;place-items:center;color:#001b2e;font-weight:800}
+    .nav-links a{padding:.5rem .75rem;border-radius:999px;text-decoration:none}
+    .nav-links a:hover{background:#1a2348}
+    .hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;padding:3.5rem 1rem}
+    .badge{display:inline-flex;gap:.5rem;align-items:center;padding:.3rem .6rem;border:1px solid #2b3b75;background:#0e1533;border-radius:999px;font-size:.85rem;color:var(--muted)}
+    .title{font-size:clamp(1.8rem, 2.8vw + 1rem, 3rem);line-height:1.15;margin:.6rem 0}
+    .subtitle{color:var(--muted);max-width:70ch}
+    .btn{background:linear-gradient(90deg, var(--accent), var(--accent-2));color:#001b2e;border:0;padding:.8rem 1rem;border-radius:12px;font-weight:700;cursor:pointer}
+    .btn.secondary{background:#121a3a;color:var(--fg);border:1px solid #223}
+    section{padding:2.5rem 0;border-top:1px solid #1b254d}
+    h2{font-size:1.6rem;margin:0 0 1rem}
+    h3{margin:1.2rem 0 .4rem}
+    .card{background:linear-gradient(180deg, #101735, #0d142d);border:1px solid #202c58;border-radius:16px;padding:1rem}
+    .grid{display:grid;gap:1rem}
+    .grid.cols-2{grid-template-columns:repeat(2, 1fr)}
+    .grid.cols-3{grid-template-columns:repeat(3, 1fr)}
+    .note{font-size:.95rem;color:var(--muted)}
+    footer{padding:2rem 0;color:#aab3c5;text-align:center}
+    @media (max-width: 880px){.hero .wrap{grid-template-columns:1fr}.grid.cols-2,.grid.cols-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#top">
+          <div class="logo">CC</div>
+          <div>
+            <strong>Climate Control Report</strong><br/>
+            <span class="note">Lagos State University • GRP106</span>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="#what">What</a>
+          <a href="#apply">Application</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#lagos">Lagos Focus</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="hero">
+    <div class="wrap">
+      <div>
+        <span class="badge">📘 Student Report</span>
+        <h1 class="title">Climate Control: Meaning, Application, and Benefits</h1>
+        <p class="subtitle">Prepared by <strong>Aremu</strong>, Department of Geography & Planning, Lagos State University (LASU). Part of GRP106 (Introduction to Planning).</p>
+        <div>
+          <a class="btn" href="#apply">Explore Applications</a>
+          <button class="btn secondary" onclick="window.print()">Save as PDF</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Quick Context – Lagos</h3>
+        <p>Lagos is a fast‑growing megacity facing challenges such as <strong>flooding, heat waves, poor air quality,</strong> and <strong>energy demand</strong>. Applying climate control strategies here is essential for resilience and sustainable development.</p>
+      </div>
+    </div>
+  </main>
+
+  <section id="what" class="wrap">
+    <h2>1) What is Climate Control?</h2>
+    <p>Climate control in this report refers to actions aimed at <strong>reducing greenhouse gas emissions</strong> (mitigation) and <strong>adapting to climate impacts</strong> (adaptation). For example, renewable energy reduces emissions, while flood‑resilient housing reduces vulnerability.</p>
+  </section>
+
+  <section id="apply" class="wrap">
+    <h2>2) Application in Society</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Mitigation</h3>
+        <ul>
+          <li>Renewable energy (solar in homes, markets, and schools).</li>
+          <li>Efficient transport (BRT systems, electric vehicles).</li>
+          <li>Waste reduction and recycling.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Adaptation</h3>
+        <ul>
+          <li>Drainage upgrades and flood‑resilient housing in Lagos communities.</li>
+          <li>Heat‑tolerant crops for Nigerian agriculture.</li>
+          <li>Disaster preparedness and early‑warning systems.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="wrap">
+    <h2>3) Benefits of Climate Control</h2>
+    <div class="grid cols-3">
+      <div class="card"><h3>Environmental</h3><p>Cleaner air and water, reduced flooding, better waste management.</p></div>
+      <div class="card"><h3>Economic</h3><p>New jobs in renewable energy, reduced healthcare costs, improved productivity.</p></div>
+      <div class="card"><h3>Social</h3><p>Better living conditions, improved resilience in low‑income areas, safer housing.</p></div>
+    </div>
+  </section>
+
+  <section id="lagos" class="wrap">
+    <h2>4) Lagos‑Focused Strategies</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Flood Management</h3>
+        <p>Constructing proper drainage, restoring wetlands in areas like Lekki and Ajah, and discouraging building on floodplains.</p>
+      </div>
+      <div class="card">
+        <h3>Energy Solutions</h3>
+        <p>Encouraging rooftop solar in markets and schools, reducing dependence on diesel generators which worsen air quality.</p>
+      </div>
+      <div class="card">
+        <h3>Urban Greening</h3>
+        <p>Planting trees along major roads (e.g., Ikorodu Road) to combat heat and improve air quality.</p>
+      </div>
+      <div class="card">
+        <h3>Transport</h3>
+        <p>Expanding BRT and rail networks to reduce car use and cut emissions.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <p>© <span id="y"></span> Aremu – Lagos State University (LASU), Department of Geography & Planning. <br> Course: GRP106 Introduction to Planning.</p>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
